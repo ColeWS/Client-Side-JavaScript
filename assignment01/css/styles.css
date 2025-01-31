@@ -1,0 +1,20 @@
+/* universal doc styling */
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* styling for h1 and student info */
+#heading {
+    background-color: skyblue;
+}
+/* styling for the "create your story" section */
+#create {
+    padding-top: 10px;
+    background-color: skyblue;
+}
+/* styling for the "show your story" section */
+#showStory {
+    padding-top: 10px;
+    background-color: skyblue;
+}
