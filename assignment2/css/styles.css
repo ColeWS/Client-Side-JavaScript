@@ -1,0 +1,16 @@
+/* body styling */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div {
+    margin: 5px;
+}
+
+/* button styling */
+button {
+    background-color: peachpuff;
+}
