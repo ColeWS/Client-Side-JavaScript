@@ -1,0 +1,37 @@
+{
+    "companyName": "I-Scream Company Inc.",
+    "headOffice": "North Pole",
+    "established": 2025,
+    "active": true,
+    "topFlavours": [{
+        "name": "Chocolate Mint",
+        "calories": 290,
+        "type": "ice-cream",
+        "ingredients": ["Chocolate Syrup", "Peppermint Sprinkle", "Vanilla Base"],
+        "image": "https://colews.github.io/Client-Side-JavaScript/lab4/images/chocolate-mint.svg"
+    }, {
+        "name": "Peach Mango",
+        "calories": 240,
+        "type": "milkshake-type ice-cream",
+        "ingredients": ["Peach Syrup", "Mango Chunks", "Vanilla Base"],
+        "image": "https://colews.github.io/Client-Side-JavaScript/lab4/images/peach-mango.svg"
+    }, {
+        "name": "Strawberry Sprinkle",
+        "calories": 200,
+        "type": "ice-cream",
+        "ingredients": ["Strawberry Syrup", "Strawberry Pieces", "Vanilla Base", "Chocolate Syrup"],
+        "image": "https://colews.github.io/Client-Side-JavaScript/lab4/images/strawberry-sprinkle.svg"
+    }, {
+        "name": "Pistachio",
+        "calories": 250,
+        "type": "milkshake-type ice-cream",
+        "ingredients": ["Pistachio Syrup", "Sprinkles", "Vanilla Base"],
+        "image": "https://colews.github.io/Client-Side-JavaScript/lab4/images/ice-cream-xtra1.svg"
+    }, {
+        "name": "Chocolate Chip Cookie Dough",
+        "calories": 300,
+        "type": "ice-cream",
+        "ingredients": ["Vanilla Syrup", "Chocolate Chunks", "Vanilla Base"],
+        "image": "https://colews.github.io/Client-Side-JavaScript/lab4/images/ice-cream-xtra2.svg"
+    }]
+}
