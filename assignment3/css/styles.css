@@ -1,0 +1,16 @@
+/* overall page styling */
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* form styling */
+form {
+    background-color: skyblue;
+}
+
+button {
+    background-color: white;
+    border-radius: 7px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- head -->
+    <head>
+        <!-- metadata -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 3</title>
+        <!-- css & js -->
+        <link href="css/styles.css" rel="stylesheet">
+        <script src="js/scripts.js" defer></script>
+    </head>
+    <!-- body -->
+    <body>
+        <header>
+            <h1>Order Pizza</h1>
+        </header>
+        <!-- Order form -->
+        <form>
+            <!-- label and input for pizza size -->
+            <label for="size">Size</label>
+            <select id="size" name="size">
+                <option value="Small">Small</option>
+                <option value="Medium">Medium</option>
+                <option value="Large">Large</option>
+            </select>
+            <!-- label and input for dough type -->
+            <label for="dough">Dough Type</label>
+            <select id="dough">
+                <option value="Normal">Normal</option>
+                <option value="Thin">Thin</option>
+                <option value="Pan">Pan</option>
+            </select>
+            <!-- label and input for dough shape -->
+            <label for="shape">Dough Shape</label>
+            <select id="shape">
+                <option value="Circle">Circle</option>
+                <option value="Square">Square</option>
+            </select>
+            <!-- label and input for sauce type -->
+            <label for="sauce">Sauce Type</label>
+            <select id="sauce">
+                <option value="Tomato">Tomato</option>
+                <option value="Alfredo">Alfredo</option>
+            </select>
+            <!-- label and input for toppings -->
+            <label for="toppings">Toppings (Ctrl-click to select multiple)</label>
+            <select id="toppings" multiple>
+                <option value="Pepperoni">Pepperoni</option>
+                <option value="Mushrooms">Mushrooms</option>
+                <option value="Olives">Olives</option>
+                <option value="Bacon">Bacon</option>
+                <option value="Pineapple">Pineapple</option>
+                <option value="Red Peppers">Red Peppers</option>
+            </select>
+            <!-- button for form submission -->
+            <button type="button" id="order">Order</button>
+            <p id="studentInfo"></p>
+            <!-- Pizza output -->
+            <p id="output"></p>  
+        </form>
+    </body>
+</html>
