@@ -1,0 +1,15 @@
+/* overall page styling */
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: gray;
+}
+
+/* apod container styling */
+#apodContainer {
+    background-color: white;
+    border: 3px solid black;
+    margin-top: 5px;
+}
